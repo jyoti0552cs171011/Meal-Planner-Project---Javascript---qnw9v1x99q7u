@@ -1,1 +1,135 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
 
+nav {
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    background-color: #e85a5a;
+    color: #f0f0f0;
+    font-size: 44px;
+    padding: 13px 40px;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+    margin: 0 30px;
+}
+nav span {
+    text-decoration: underline;
+}
+
+#user-form{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#meal-form {
+    display: grid;
+    margin: 40px auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; 
+    align-items: center;
+  }
+  
+  #meal-form input[type="number"],
+  #meal-form select,#submit-btn {
+    background-color: #ddd;
+    width: 80%;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    box-shadow: none; 
+  }
+  #meal-form select{
+    margin-left: 58%;
+  }
+  #submit-btn {
+    padding: 8px;
+    margin-left: 34%;
+    width: 30%;
+    grid-column: span 3;
+    background-color: #ea4b4b;
+    color: #f0f0f0;
+    font-size: 24px;
+    font-family: 'Architects Daughter', cursive;
+  }
+
+#meal-plan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.meal-card {
+    text-align: center;
+    max-width: 300px;
+}
+
+.meal-card h3{
+    color: #ea4b4b;
+    font-size: 30px;
+}
+
+.meal-card img {
+    height: 240px;
+    width: 280px;
+    object-fit: cover;
+    border-radius: 4px;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+}
+
+.meal-item{
+    background-color: rgb(240, 71, 71);
+    color: #f0f0f0;
+    border-radius: 18px;
+}
+
+.get-recipe-btn {
+    background-color: #be2727;
+    color: #fff;
+    padding: 8px;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+#recipe-section {
+    max-width: 81%;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+#recipe-section h2{
+    color: #ea4b4b;
+}
+
+#recipe-section .recipe-tab {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.recipe-tab h3{
+    color: #e85a5a;
+}
+
+.tab-content {
+    padding: 10px;
+    min-width: 40%;
+}
