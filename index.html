@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@600;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Meal Planner</title>
+</head>
+<body>
+    <nav id="navbar">
+        <img src="https://www.instituteofpersonaltrainers.com/uploads/2/2/0/1/22014694/myplate-logo_orig.png" alt="Logo">
+        <div><span>Meal </span> Planner</div>
+    </nav>
+
+    <div id="user-form">
+        <form id="meal-form">
+            <input type="number" id="weight" placeholder="Enter weight in Kg" required>
+            <input type="number" id="height" placeholder="Enter height in cm" required>
+            <input type="number" id="age" placeholder="Age" required>
+            <select id="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <select id="activity" required>
+                <option value="light">Light</option>
+                <option value="moderate">Moderate</option>
+                <option value="active">Active</option>
+            </select>
+            <input type="submit" value="Generate Meals" id="submit-btn">
+        </form>
+    </div>
+
+    <div id="meal-plan">
+            
+    </div>
+
+    <div id="recipe-section">
+       
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
