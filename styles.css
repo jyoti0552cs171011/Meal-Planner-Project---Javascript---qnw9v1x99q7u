@@ -61,6 +61,7 @@ nav span {
     color: #f0f0f0;
     font-size: 24px;
     font-family: 'Architects Daughter', cursive;
+    cursor: pointer;
   }
 
 #meal-plan {
@@ -132,4 +133,18 @@ nav span {
 .tab-content {
     padding: 10px;
     min-width: 40%;
+}
+@media  screen and (max-width:900px) {
+    #recipe-section .recipe-tab{
+        flex-wrap: wrap;
+    }
+    #meal-form{
+        display: flex;
+        flex-direction: column;
+    }
+    #meal-form input[type="number"],
+    #meal-form select,#submit-btn {
+        width: 100%;
+        margin-left: 0;
+    }
 }
